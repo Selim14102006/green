@@ -1,12 +1,14 @@
-.body1{
+#welcome{
 
-    background-color: #89cff0;
+  text-align: center;
 
-    font-family:Arial, Helvetica, sans-serif;
+}
 
-    text-align: center;
+#register{
 
- }
+  color: #2575fc;
+
+}
 
 form{
 
@@ -18,19 +20,23 @@ form{
 
     border-radius: 20px;
 
-    margin-top: 10%;
+    margin-top: 120px;
 
     box-shadow: -2px -3px 6px ;
 
-    background-color: #e0f7fa;
+    background-color:rgb(245,245,245);
+
+    text-align: center;
+
+    imag3
 
 }
 
-.btn{
+button{
 
     width: 100px;
 
-    height: 30px;
+    height: 50px;
 
     font-size: 20px;
 
@@ -38,9 +44,23 @@ form{
 
     background-color: #89cff0;
 
+    
+
+    
+
     cursor: pointer;
 
+    
+
+    
+
     color: black;
+
+    border-radius: 20px;
+
+    
+
+  
 
 }
 
@@ -50,17 +70,23 @@ button:hover {
 
   color: #ff0000;
 
+  width: 110px;
+
+  height: 60px;
+
 }
 
 
 
-  .nav1{
+  nav{
 
     background-color: #2575fc;
 
     padding:20px;
 
-    
+    margin: 30px;
+
+    border-radius:10px;
 
   }
 
@@ -88,11 +114,13 @@ footer{
 
   padding: 20px;
 
-  background-color: #2575fc;
-
   margin: 30px;
 
+  background-color: #2575fc;
 
+ 
+
+border-radius:10px;
 
 }
 
@@ -104,11 +132,38 @@ footer{
 
     margin: auto;
 
+    width: 600px;
+
   }
 
 
 
- 
+ input{
+
+   background-color: #ccc;
+
+   border-radius: 15px;
+
+
+
+   height: 30px;
+
+   width:200px ;
+
+
+
+ }
 
   
 
+input:hover{
+
+  background-color: #bbfbff;
+
+   height: 20px;
+
+
+
+   width:225px;
+
+}
